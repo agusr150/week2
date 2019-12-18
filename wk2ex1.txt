@@ -1,0 +1,89 @@
+No. 1 Newton Second Law
+Algoritma:
+1. Mulai
+2. Input m = 600kg dan a = 2m/s2
+3. Hitung F = m*a
+4. Tampilkan hasil F
+5. Selesai
+
+Pseudocode
+READ m dan a
+DO F = m*a
+WRITE F
+
+
+No. 2 Tahun Kabisat
+Algoritma
+1. Mulai
+2. Input tahun
+3. Cek apakah tahun habis dibagi 4
+4. Jika tidak habis dibagi 4, hasilnya bukan Kabisat
+5. Jika habis dibagi 4, lanjut ke no selanjutnya
+6. Cek apakah tahun habis dibagi 100
+7. Jika tidak habis dibagi 100, hasilnya tahun Kabisat
+8. Jika habis dibagi 100, lanjut ke no selanjutnya
+9. Cek apakah tahun habis dibagi 400
+10. Jika habis dibagi 400, hasilnya tahun Kabisat
+11. Jika tidak habis dibagi 400, hasilnya bukan tahun Kabisat
+12. Tampilkan hasil
+13. Selesai
+
+Pseudocode
+READ tahun
+IF tahun/4 = integer
+   IF tahun/100 = integer
+      IF tahun/400 = integer
+         WRITE Kabisat
+      ELSE
+         WRITE Bukan Kabisat
+   ELSE
+      WRITE Kabisat
+ELSE
+WRITE Bukan Kabisat
+
+
+No. 3 Laundry Day
+Algoritma
+1. Mulai
+2. Input laundry = 1
+3. Cek apakah laundry masih kurang dari 20
+4. Jika laundry kurang dari 20, tambah 1 di laundry dan kembali ke no.3
+5. Jika laundry sama dengan 20, mesin cuci ON
+6. Selesai
+
+Pseudocode
+READ Laundry = 1
+WHILE Laundry <20
+      Laundry = Laundry + 1
+ENDWHILE
+Mesin cuci ON
+
+
+
+No. 4 Perikasa Kuku
+Algoritma
+1. Mulai
+2. Input kuku = 1
+3. Cek apakah kuku panjang
+4. Jika kuku panjang, dihukum
+5. Jika kuku pendek, dipuji
+6. Cek apakah kuku kurang dari 40
+7. Jika kuku kurang dari 40, tambahkan 1 di kuku dan kembali ke no 3
+8. Jika kuku sama dengan 40, selesai.
+
+Pseudocode
+READ kuku = 1
+WHILE kuku < 40
+      IF kuku = panjang
+      WRITE hukuman
+      ELSE
+      WRITE pujian
+  kuku = kuku + 1
+ENDWHILE 
+
+
+
+
+	
+ 
+
