@@ -68,7 +68,7 @@ switch (bulan) {
         break;                 
     case 11:
         bulan = "November";
-        if (tanggal > 31){
+        if (tanggal > 30){
             console.log('ganti input tanggal')
         }
         break;  
